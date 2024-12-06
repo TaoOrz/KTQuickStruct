@@ -1,0 +1,6 @@
+framework module AULibrary {
+  umbrella header "AULibrary.h"
+  export *
+
+  module * { export * }
+}
