@@ -29,6 +29,5 @@ let package = Package(
             name: "AULibrary",
           path: "./Sources/AULibrary.xcframework"),
         .target(name: "AULibraryManager",dependencies: ["SnapKit","Kingfisher"])
-    ],
-    version: "1.0.0"
+    ]
 )
