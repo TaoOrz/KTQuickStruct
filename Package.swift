@@ -27,7 +27,9 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "AULibrary",
-          path: "./Sources/AULibrary.xcframework"),
+            url:"https://firebasestorage.googleapis.com/v0/b/autotoll-407b9.appspot.com/o/AULibrary.xcframework.zip?alt=media&token=d6ea3650-40b8-42f0-ba12-f154e70ec69b",
+            checksum: "f1b413ec71f08e1de16909277e77383031ceb41de79f37282b8df57e288df87d"
+        ),
         .target(name: "AULibraryManager",dependencies: ["SnapKit","Kingfisher"])
     ]
 )
